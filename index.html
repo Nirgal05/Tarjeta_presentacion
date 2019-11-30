@@ -11,6 +11,8 @@
 </head>
 
 <body class="bg-primary">
+    <nav class="bg-primary">
+    </nav>
     <main>
         <section class="d-flex justify-content-center">
             <!--Lo tenía en 3, pero en 12 es para todo full mobiles-->
@@ -19,16 +21,36 @@
                 <img src="profile.jpg" class="card-img-top rounded rounded-sm" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Ing. Martín Falcón</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam adipisci quasi porro dignissimos exercitationem sunt ad numquam, autem consectetur dolorem itaque ratione libero asperiores id? Praesentium quaerat officia obcaecati facilis.
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam adipisci quasi
+                        porro dignissimos exercitationem sunt ad numquam, autem consectetur dolorem itaque ratione
+                        libero asperiores id? Praesentium quaerat officia obcaecati facilis.
 
                     </p>
-                    <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/"
-                        class="btn btn-primary">Go Bootstrap</a>
+                    <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" class="btn btn-primary">Go
+                        Bootstrap</a>
                 </div>
             </div>
         </section>
+        <section>
+            <form class="container bg-success">
+                <div class="form-group">
+                    <h2>Contactanos</h2>
+                    <label for="exampleInputEmail1">e-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">A la brevedad nos contactaremos contigo.</small>
+                </div>
+                <div class="form-group">
+                    <label for="InputTel">Password</label>
+                    <input type="tel" class="form-control" id="InputTel">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
     </main>
-
 </body>
 
 </html>
